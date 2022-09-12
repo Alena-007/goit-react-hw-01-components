@@ -32,6 +32,7 @@ export const theme = {
     borders: {
         none: 'none',
         normal: '1px solid rgba(0, 0, 0, 0.3)',
+        right: 'solid rgba(0, 0, 0, 0.3)',
     },
     radii: {
         none: '0',
