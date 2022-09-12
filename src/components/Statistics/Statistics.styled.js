@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const StatisticInfo = styled.section`
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto;
     font-size: ${p => p.theme.fontSizes.xl};
     font-weight: ${p => p.theme.fontWeights.bold};
     color: ${p => p.theme.colors.text};
@@ -13,13 +13,13 @@ export const StatisticInfo = styled.section`
 `;
 
 export const StatisticsTitle = styled.h2`
+    margin-bottom: ${p => p.theme.space[4]}px;
+    padding-top: ${p => p.theme.space[4]}px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: ${p => p.theme.space[4]}px;
     font-size: ${p => p.theme.fontSizes.xl};
     font-weight: ${p => p.theme.fontWeights.bold};
     color: ${p => p.theme.colors.text};
-    padding-top: ${p => p.theme.space[4]}px;
 `;
 
 export const StatisticsList = styled.ul`
@@ -33,10 +33,10 @@ export const StatisticsItems = styled.li`
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: ${p => p.theme.space[4]}px;
     border: ${p => p.theme.borders.normal};
     border-radius: ${p => p.theme.radii.sm};
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
-    padding: ${p => p.theme.space[4]}px;
     background-color: ${getRandomHexColor};
 `;
 

@@ -1,18 +1,17 @@
 import styled from 'styled-components';
 
 export const ProfileInfo = styled.div`
-    // background-color: ${p => p.theme.colors.accent};
-    color: ${p => p.theme.colors.text};
-    font-size: ${p => p.theme.fontSizes.l};
-    margin-bottom: ${p => p.theme.space[2]}px;
-    padding: ${p => p.theme.space[4]}px;
-    border-radius: ${p => p.theme.space[4]}px;
-    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: ${p => p.theme.space[4]}px;
+    margin-bottom: ${p => p.theme.space[2]}px;
+    padding: ${p => p.theme.space[4]}px;
+    color: ${p => p.theme.colors.text};
+    font-size: ${p => p.theme.fontSizes.l};
+    border-radius: ${p => p.theme.space[4]}px;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
 
     & img {
         width: 200px;
@@ -38,8 +37,8 @@ export const ProfileList = styled.ul`
     justify-content: space-between;
     align-items: center;
     gap: ${p => p.theme.space[3]}px;
-    font-size: ${p => p.theme.fontSizes.s};
     padding: ${p => p.theme.space[4]}px;
+    font-size: ${p => p.theme.fontSizes.s};
     border-radius: ${p => p.theme.space[4]}px;
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
 `;

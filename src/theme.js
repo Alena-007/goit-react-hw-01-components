@@ -4,6 +4,7 @@ export const theme = {
         white: '#fff',
         red: '#DC143C',
         green: '#008000	',
+        silver: '#C0C0C0',
         text: '#2a2a2a',
         background: '#FFF5EE',
         primary: '#8B008B',
@@ -34,7 +35,6 @@ export const theme = {
     borders: {
         none: 'none',
         normal: '1px solid rgba(0, 0, 0, 0.3)',
-        right: 'solid rgba(0, 0, 0, 0.3)',
     },
     radii: {
         none: '0',

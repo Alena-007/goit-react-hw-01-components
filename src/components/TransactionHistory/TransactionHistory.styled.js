@@ -5,17 +5,17 @@ export const TransactionTable = styled.table`
     border: ${p => p.theme.borders.normal};
     border-radius: ${p => p.theme.radii.md};
     & th {
+        padding: ${p => p.theme.space[3]}px;
+        background: ${p => p.theme.colors.primary};
         color: ${p => p.theme.colors.white};
         text-transform: uppercase;
         font-weight: ${p => p.theme.fontWeights.bold};
-        padding: ${p => p.theme.space[3]}px;
-        background: #8b008b;
         border: ${p => p.theme.borders.normal};
         border-radius: ${p => p.theme.radii.md};
     }
     & td {
         padding: ${p => p.theme.space[3]}px;
-        color: #696969;
+        color: ${p => p.theme.colors.text};
         border: ${p => p.theme.borders.normal};
         border-radius: ${p => p.theme.radii.md};
         text-align: center;
@@ -24,9 +24,9 @@ export const TransactionTable = styled.table`
         text-transform: uppercase;
     }
     & tr:nth-child(odd) {
-        background: #d3d3d3;
+        background-color: ${p => p.theme.colors.silver};
     }
     & tr:nth-child(even) {
-        background: white;
+        background-color: ${p => p.theme.colors.white};
     }
 `;

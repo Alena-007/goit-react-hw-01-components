@@ -13,7 +13,7 @@ export const Statistics = ({ title, stats }) => {
     return (
         <Box width="600px" ml="auto" mr="auto" mb={5} p={4}>
             <StatisticInfo>
-                <StatisticsTitle>Upload stats</StatisticsTitle>
+                {title ? <StatisticsTitle>{title}</StatisticsTitle> : ''}
 
                 <StatisticsList>
                     {stats.map(item => (
