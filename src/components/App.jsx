@@ -11,7 +11,7 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
     return (
-        <Box p={5} backgroundColor="white">
+        <Box p={5}>
             <Profile
                 username={user.username}
                 tag={user.tag}

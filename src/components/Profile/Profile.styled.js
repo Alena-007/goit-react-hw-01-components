@@ -30,7 +30,7 @@ export const ProfileInfo = styled.div`
 export const ProfileUsername = styled.p`
     font-size: ${p => p.theme.fontSizes.xl};
     font-weight: ${p => p.theme.fontWeights.bold};
-    color: ${p => p.theme.colors.text};
+    color: ${p => p.theme.colors.primary};
 `;
 
 export const ProfileList = styled.ul`
@@ -55,11 +55,11 @@ export const ProfileItems = styled.li`
 export const ProfileLabel = styled.span`
     font-size: ${p => p.theme.fontSizes.m};
     font-weight: ${p => p.theme.fontWeights.normal};
-    color: ${p => p.theme.colors.text};
+    color: ${p => p.theme.colors.secondary};
 `;
 
 export const ProfileQuantity = styled.span`
     font-size: ${p => p.theme.fontSizes.m};
     font-weight: ${p => p.theme.fontWeights.bold};
-    color: ${p => p.theme.colors.text};
+    color: ${p => p.theme.colors.secondary};
 `;
