@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StatisticInfo = styled.section`
-    width: 600px;
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto;
@@ -11,7 +10,6 @@ export const StatisticInfo = styled.section`
     border: ${p => p.theme.borders.normal};
     border-radius: ${p => p.theme.radii.sm};
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
-    padding-top: ${p => p.theme.space[4]}px;
 `;
 
 export const StatisticsTitle = styled.h2`
@@ -21,6 +19,7 @@ export const StatisticsTitle = styled.h2`
     font-size: ${p => p.theme.fontSizes.xl};
     font-weight: ${p => p.theme.fontWeights.bold};
     color: ${p => p.theme.colors.text};
+    padding-top: ${p => p.theme.space[4]}px;
 `;
 
 export const StatisticsList = styled.ul`
