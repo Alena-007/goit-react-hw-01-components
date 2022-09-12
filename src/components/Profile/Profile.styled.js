@@ -9,6 +9,7 @@ export const ProfileInfo = styled.div`
     margin-bottom: ${p => p.theme.space[2]}px;
     padding: ${p => p.theme.space[4]}px;
     color: ${p => p.theme.colors.text};
+    background-color: ${p => p.theme.colors.white};
     font-size: ${p => p.theme.fontSizes.l};
     border-radius: ${p => p.theme.space[4]}px;
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
@@ -38,6 +39,7 @@ export const ProfileList = styled.ul`
     align-items: center;
     gap: ${p => p.theme.space[3]}px;
     padding: ${p => p.theme.space[4]}px;
+    background-color: ${p => p.theme.colors.white};
     font-size: ${p => p.theme.fontSizes.s};
     border-radius: ${p => p.theme.space[4]}px;
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);

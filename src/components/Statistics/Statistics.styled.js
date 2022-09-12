@@ -6,6 +6,7 @@ export const StatisticInfo = styled.section`
     text-transform: uppercase;
     font-size: ${p => p.theme.fontSizes.xl};
     font-weight: ${p => p.theme.fontWeights.bold};
+    background-color: ${p => p.theme.colors.white};
     color: ${p => p.theme.colors.text};
     border: ${p => p.theme.borders.normal};
     border-radius: ${p => p.theme.radii.sm};

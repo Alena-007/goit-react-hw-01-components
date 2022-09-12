@@ -7,6 +7,7 @@ export const FriendsListItem = styled.li`
     text-align: center;
     padding: ${p => p.theme.space[4]}px;
     margin-bottom: ${p => p.theme.space[3]}px;
+    background-color: ${p => p.theme.colors.white};
     border: ${p => p.theme.borders.normal};
     border-radius: ${p => p.theme.radii.sm};
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
